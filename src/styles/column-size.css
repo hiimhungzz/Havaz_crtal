@@ -1,0 +1,24 @@
+.column-extra{
+    min-width: 500px !important;
+    max-width: 500px !important;
+}
+.column-large{
+    min-width: 350px !important;
+    max-width: 350px !important;
+}
+.column-medium{
+    min-width: 200px !important;
+    max-width: 200px !important;
+}
+.column-small{
+    min-width: 180px !important;
+    max-width: 180px !important;
+}
+.column-extra-small{
+    min-width: 120px !important;
+    max-width: 120px !important;
+}
+.column-tiny{
+    min-width: 80px !important;
+    max-width: 80px !important;
+}

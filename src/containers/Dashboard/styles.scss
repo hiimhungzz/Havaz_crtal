@@ -1,0 +1,62 @@
+.sumcommand {
+  background: #fff;
+  padding: 25px;
+}
+
+.chartDriver {
+  background: #fff;
+  padding: 25px;
+}
+
+.titleChart {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 20px
+}
+
+.headerChart {
+  margin-bottom: 20px,
+}
+
+.select {
+  float: right;
+}
+
+.chartDriver {
+  overflow-y: scroll;
+}
+@media only screen and (max-width: 2560px) and (min-width: 1700px) {
+  .driver {
+    height: 500px;
+    overflow-y: scroll;
+  }
+}
+
+@media only screen and (max-width: 1700px) and (min-width: 1440px) {
+  .driver {
+    height: 300px;
+    overflow-y: scroll;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .driver {
+    height: 267px;
+    overflow-y: scroll;
+  }
+}
+
+@media only screen and (max-width: 1024 px) {
+  .driver {
+    height: 180px;
+    overflow-y: scroll;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .driver {
+    height: 160px;
+    overflow-y: scroll;
+  }
+}
+

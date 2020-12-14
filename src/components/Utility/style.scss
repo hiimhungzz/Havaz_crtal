@@ -1,0 +1,15 @@
+.ant-select-tree li .ant-select-tree-node-content-wrapper{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 300px;
+}
+.ant-select-tree li{
+   display: grid;
+   grid-template-columns: 20px auto;
+   font-weight: bold;
+}
+// .ant-select-tree li{
+//     display: flex;
+
+// }

@@ -1,0 +1,14 @@
+.cr-paging__container {
+  padding: 0 !important;
+}
+.cr-paging__container span {
+  display: inline-flex;
+  font-size: 12px;
+  color: #6c7293;
+}
+.cr-paging__container div:first-child {
+  display: inline-flex;
+}
+.cr-paging__container div {
+  font-size: 12px;
+}

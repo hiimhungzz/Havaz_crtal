@@ -1,0 +1,37 @@
+.label {
+  display: flex;
+  min-width: 25%;
+  align-items: center;
+  color: #000;
+  font-size: 14px;
+}
+.viewBtnHeader {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.viewHeader {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.e-custom-picker {
+  height: 20px;
+  line-height: 20px;
+}
+
+// .ant-drawer-body {
+//   padding: 0;
+// }
+.thumnail {
+  border-radius: 10px;
+  border: 1px solid rgb(242, 243, 248);
+  overflow: hidden;
+  box-shadow: 1px 1px #e5e8ee;
+}
+.viewMenuRoot {
+  margin-top: 20px;
+}

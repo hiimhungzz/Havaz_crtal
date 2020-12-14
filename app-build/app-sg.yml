@@ -1,0 +1,9 @@
+apps:
+  - script : ./server.js
+    name: SG_ADMIN_P
+    instances: 1
+    exec_mode: cluster
+    env :
+      PORT_ENV: 'SAIGON'
+      PORT: 5002
+    node_args: "--max-old-space-size=4048"

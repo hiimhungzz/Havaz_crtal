@@ -1,0 +1,9 @@
+apps:
+  - script : ./server.js
+    name: MERGE_ADMIN
+    instances: 2
+    exec_mode: cluster
+    env :
+      PORT_ENV: 'HANOI'
+      PORT: 5005
+    node_args: "--max-old-space-size=4048"

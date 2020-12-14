@@ -1,0 +1,145 @@
+.customer_table {
+  .border_none {
+    border: none;
+  }
+  .ant-calendar-picker-input.ant-input {
+    border: none;
+  }
+  .ant-select-selection--single {
+    border: none;
+  }
+}
+
+.ant-tabs-nav .ant-tabs-tab {
+  margin: unset;
+}
+
+.white_space {
+  white-space: nowrap;
+}
+
+.d_block {
+  display: block;
+}
+
+.d_flex {
+  display: flex;
+}
+
+.align_item {
+  align-items: center;
+}
+
+.margin_10 {
+  margin-bottom: 10px;
+}
+
+.mt_10 {
+  margin-top: 10px;
+}
+
+.mb_10 {
+  margin-bottom: 10px;
+}
+
+.width_140 {
+  width: 125px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+}
+
+.font_17 {
+  font-size: 17px;
+}
+
+.customer_tag {
+  padding: -1 15px 0 5px;
+  text-overflow: ellipsis;
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.customer_icon {
+  right: 0;
+  bottom: 0;
+  color: white;
+  position: absolute;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes example {
+  from {
+    top: -20px;
+  }
+  to {
+    top: 0px;
+    color: green;
+  }
+}
+
+// .fixed {
+//     table-layout: fixed;
+//     border-collapse: collapse;
+//     th {
+//         text-decoration: underline;
+//     }
+//     th,
+//     td {
+//         padding: 5px;
+//         text-align: left;
+//     }
+//     tbody {
+//         // display: block;
+//         // overflow: auto;
+//         height: 300px;
+//         tr:nth-child(even) {
+//             background-color: #DDD;
+//         }
+//     }
+// }
+.hoverTable {
+  // .RootBase-root-28 {
+  //     height: 600px;
+  // }
+  // // table tbody tr:nth-of-type(odd) {
+  // //     background-color: #f0f0f0;
+  // // }
+  tr:hover td {
+    opacity: 1;
+    color: #000;
+    font-weight: bold;
+    font-size: 90%;
+    line-height: 40px;
+    background: #c7d4dd !important;
+  }
+  // .TableContainer-root-29 {
+  //     // td:hover::before {
+  //     //     background-color: #ffa;
+  //     //     content: '';
+  //     //     height: 10000px;
+  //     //     left: 0;
+  //     //     position: absolute;
+  //     //     top: -5000px;
+  //     //     width: 100%;
+  //     //     z-index: -1;
+  //     // }
+  //     // td,
+  //     // th {
+  //     //     position: relative;
+  //     // }
+  // }
+}
+
+
+.cellItemTask {
+  .ant-tag {
+    margin-right: 0px;
+  }
+}

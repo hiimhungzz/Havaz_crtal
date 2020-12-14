@@ -1,0 +1,15 @@
+[0306/090556.013:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0309/190329.954:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0309/191411.144:ERROR:crash_report_database_win.cc(428)] unexpected header
+<<<<<<< HEAD
+[0310/083125.455:ERROR:crash_report_database_win.cc(428)] unexpected header
+=======
+>>>>>>> origin/develop
+[0507/221111.071:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0507/221110.727:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0507/221111.133:ERROR:exception_snapshot_win.cc(98)] thread ID 2004 not found in process
+[0507/221111.133:ERROR:exception_snapshot_win.cc(98)] thread ID 4376 not found in process
+[0524/172521.416:ERROR:process_info.cc(359)] UncheckedAllocate
+[0525/011633.236:ERROR:process_info.cc(617)] range at 0x1813bfe000, size 0x2000 fully unreadable
+[0525/011633.236:ERROR:process_info.cc(617)] range at 0x180bba9000, size 0x1788 fully unreadable
+[0526/155502.679:ERROR:process_info.cc(359)] UncheckedAllocate

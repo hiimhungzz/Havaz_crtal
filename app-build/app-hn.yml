@@ -1,0 +1,9 @@
+apps:
+  - script : ./server.js
+    name: HN_ADMIN_P
+    instances: 1
+    exec_mode: cluster
+    env :
+      PORT_ENV: 'HANOI'
+      PORT: 5000
+    node_args: "--max-old-space-size=4048"

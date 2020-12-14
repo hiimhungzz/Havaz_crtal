@@ -1,0 +1,10 @@
+.horver_table {
+    tr:hover td {
+        opacity: 1;
+        color: #000;
+        font-weight: bold;
+        font-size: 90%;
+        line-height: 40px;
+        background: #c7d4dd !important;
+    }
+}
